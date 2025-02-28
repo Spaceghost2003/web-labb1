@@ -64,7 +64,8 @@ header .header-nav li a{
   
 }
 .logo{
-    font-size:25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:40px;
     color:#333;
     text-decoration: none;
     font-weight:800;
