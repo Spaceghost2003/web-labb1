@@ -6,11 +6,7 @@ class Album{
         this.Title = Title;
         this.Price = Price;
     }
-
-
 }
-
-
 
 const album1 = new Album("imgs/img1.jpg", "Paysage D'hiver", "Kerker", "$75");
 const album2 = new Album("imgs/img2.jpg","Paysage D'hiver", "Kelte", "$40");
@@ -27,13 +23,6 @@ const Albums = [album1,album2,album3,album4,album5,album6, album7,album8];
 document.addEventListener("DOMContentLoaded", () => {
     const productContent = document.querySelector(".product-content"); 
     
-    if (!productContent) {
-        console.error("Element with class 'product-content' not found.");
-        return;
-    }
-
-    console.log("Product content found:", productContent);
-    console.log("Albums array:", Albums);
     Albums.forEach(function(album) {
         const productBox = document.createElement("div");
         productBox.className = "product-box";
@@ -119,9 +108,7 @@ const addToCart = productBox =>{
                 }else if(event.target.id=== "increment"){
                     quantity++;
                     decrementButton.style.color="#333";
-                }
-
-               
+                }  
                 numberElement.textContent = quantity;
                 updateTotalPrice();
             });
