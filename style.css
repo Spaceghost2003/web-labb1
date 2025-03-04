@@ -221,6 +221,14 @@ header .header-nav li a{
     color:#999;
 }
 
+.google-map{
+   
+    padding-top:30px;
+    padding-left: 110px;
+    width: 500px;
+    border: #000000;
+    border-width: 2px;
+}
 
 .cart-quantity .number{
     display:flex;
@@ -284,9 +292,10 @@ color: rgb(81, 62, 62);
 }
 
 .contact-information{
-    
-    padding-left: 110px;
-    margin-top: 500px;
+   
+    padding-top:20px;
+    padding-left: 120px;
+    margin-top: 610px;
 }
 
 .contact-information li{
@@ -308,8 +317,8 @@ color: rgb(81, 62, 62);
     
 }
     
-     .lamp{
-        width:450px;
+     .index-image{
+        width:600px;
     }
     .brdr{
         border:#fff;
@@ -336,6 +345,13 @@ color: rgb(81, 62, 62);
         
     }
     
+    .about-background{
+        background-color: antiquewhite;
+    }
+    .store-background{
+        background-color: rgb(193, 212, 212);
+    }
+
     .text-container p{
         
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -365,5 +381,13 @@ color: rgb(81, 62, 62);
     }
     
     .about-text-container p{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Courier New', Courier, monospace
+    }
+
+    .bottom-color{
+        background-color: #cbd6d4;
+        padding-top:1000px;
+        margin-top: 50px;
+        width: 100%;
+        height:300px;
     }
